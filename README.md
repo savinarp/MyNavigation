@@ -1,7 +1,5 @@
 # MyNavigation
 
-Link File APK : https://drive.google.com/file/d/0B395MV81wHBUZmt1dllMamt5c3M/view?usp=sharing
-
 Nama Lengkap : Savina Ramadhani Putri T
 
 Kelas / No Urut : XIRPL3 / 31

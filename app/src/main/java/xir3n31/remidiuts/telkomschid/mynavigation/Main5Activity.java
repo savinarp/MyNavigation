@@ -45,8 +45,16 @@ public class Main5Activity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 // When the given dropdown item is selected, show its contents in the
                 // container view.
+
+                Fragment fragment;
+                if (position == 0) {
+                    fragment = new Fragment1a();
+                } else {
+                    fragment = new Fragment2a();
+                    //fragment = PlaceholderFragment.newInstance(position + 1);
+                }
                 getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.container, PlaceholderFragment.newInstance(position + 1))
+                        .replace(R.id.container, fragment)
                         .commit();
             }
 
